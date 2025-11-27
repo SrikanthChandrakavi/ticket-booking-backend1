@@ -11,6 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>ticket-booking-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>	
 	<name>ticket-booking-backend</name>
 	<description>Online Ticket Booking Backend</description>
 	<url/>
@@ -60,6 +61,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+    		<groupId>org.springframework.boot</groupId>
+    		<artifactId>spring-boot-starter-tomcat</artifactId>
+    		<scope>provided</scope>
+		</dependency>
+
 	</dependencies>
 
 	<build>
